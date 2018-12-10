@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "menghitung volume"
+        android:id="@+id/judul"
+        android:paddingBottom="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Isi Jari-jari"
+        android:layout_below="@id/judul"
+        android:id="@+id/jari"
+        android:paddingLeft="100dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Isi Tinggi"
+        android:layout_below="@id/jari"
+        android:id="@+id/tinggi"
+        android:paddingLeft="100dp"
+        />
+
+    <Button
+        android:id="@+id/hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tinggi"
+        android:paddingLeft="10dp"
+        android:text="HITUNG" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:layout_below="@id/hitung"
+        android:id="@+id/volume"
+        android:paddingLeft="40dp"
+        />
+
+</RelativeLayout>
