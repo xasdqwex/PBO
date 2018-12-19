@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff6f00"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="100dp"
+            android:id="@+id/imgwines"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/wine" />
+    <TextView
+        android:id="@+id/wines"
+        android:layout_toRightOf="@id/imgwines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Wines"
+        android:paddingLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f521f5"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="100dp"
+            android:id="@+id/imgwines"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/soup" />
+        <TextView
+            android:id="@+id/wines"
+            android:layout_toRightOf="@id/imgwines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Soup"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1bf4e2"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="100dp"
+            android:id="@+id/imgwines"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/burgers" />
+        <TextView
+            android:id="@+id/wines"
+            android:layout_toRightOf="@id/imgwines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Burgers"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#21f22f"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="100dp"
+            android:id="@+id/imgwines"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/cakes" />
+        <TextView
+            android:id="@+id/wines"
+            android:layout_toRightOf="@id/imgwines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Cookies"
+            android:paddingLeft="30dp"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
